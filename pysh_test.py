@@ -7,11 +7,7 @@ import re
 import pyshark
 
 pcap = pyshark.FileCapture(input_file="./captura1.pcap", keep_packets=True)
-
-temp = x
-x = y
-y = temp    
-
+   
 # Hi nao160030!
 # Write your answer here:  
 

@@ -6,6 +6,9 @@ import sys
 import re
 import pyshark
 
+
+# ADASDASDSAS
+
 pcap = pyshark.FileCapture(input_file="./captura1.pcap", keep_packets=True)
    
 # Hi nao160030!

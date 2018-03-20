@@ -9,7 +9,8 @@ import pyshark
 pcap = pyshark.FileCapture(input_file="./captura1.pcap", keep_packets=True)
    
 # Hi nao160030!
-# Write your answer here: Hi Itan  
+# Write your answer here: Hi Itan
+# Como estas nao160030?  
 
 for p in pcap:
     p = str(p).replace('\n','')
